@@ -1,16 +1,14 @@
 
 public class Property {
 
-	private String owner;
 	private double sqrFeet;
-	private int age;
+	private boolean wifi, petFriendly, pool, gym, furnished;
+	private int price, beds, baths;
 	
-	public Property(String owner, double sqrFeet, int age) {
+	
+	
+	public Property() {
 		
-	}
-	
-	public String getOwner() {
-		return "";
 	}
 	
 	public double getSqrFeet() {
@@ -19,10 +17,6 @@ public class Property {
 	
 	public int getAge() {
 		return 0;
-	}
-	
-	public void setOwner(String newOwner) {
-		this.owner = newOwner;
 	}
 	
 	public void setSqrFeet(double newSqrFeet) {
