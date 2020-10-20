@@ -7,7 +7,7 @@ public class Property {
 	
 	
 	
-	public Property() {
+	public Property(double sqrFeet, boolean wifi, boolean petFriendly, boolean pool, boolean gym, boolean furnished, int price, int beds, int baths) {
 		
 	}
 	
@@ -15,16 +15,39 @@ public class Property {
 		return 0;
 	}
 	
-	public int getAge() {
+	public boolean getWifi() {
+		return false;
+	}
+	public boolean getPetFriendly() {
+		return false;
+	}
+	
+	public boolean getPool() {
+		return false;
+	}
+	
+	public boolean getGym() {
+		return false;
+	}
+	
+	public boolean getFurnished() {
+		return false;
+	}
+	
+	public int getPrice() {
+		return 0;
+	}
+	
+	public int getBeds() {
+		return 0;
+	}
+	
+	public int getBaths() {
 		return 0;
 	}
 	
 	public void setSqrFeet(double newSqrFeet) {
 		this.sqrFeet = newSqrFeet;
-	}
-	
-	public void setAge(int newAge) {
-		this.age = newAge;
 	}
 	
 	
